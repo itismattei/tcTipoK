@@ -78,8 +78,8 @@
 				</configuration>
 			</storageModule>
 			<storageModule moduleId="org.eclipse.cdt.core.externalSettings">
-				<externalSettings containerId="lpmsp430f5529_25_core;com.ti.ccstudio.buildDefinitions.MSP430.Debug.1814507844" factoryId="org.eclipse.cdt.core.cfg.export.settings.sipplier"/>
-				<externalSettings containerId="lpmsp430f5529_25_SPI;com.ti.ccstudio.buildDefinitions.MSP430.Debug.1407779129" factoryId="org.eclipse.cdt.core.cfg.export.settings.sipplier"/>
+				<externalSettings containerId="lpmsp430f5529_25_core;com.ti.ccstudio.buildDefinitions.MSP430.Debug.1967807865" factoryId="org.eclipse.cdt.core.cfg.export.settings.sipplier"/>
+				<externalSettings containerId="lpmsp430f5529_25_SPI;com.ti.ccstudio.buildDefinitions.MSP430.Debug.2018029695" factoryId="org.eclipse.cdt.core.cfg.export.settings.sipplier"/>
 			</storageModule>
 		</cconfiguration>
 		<cconfiguration id="com.ti.ccstudio.buildDefinitions.MSP430.Release.912702206">

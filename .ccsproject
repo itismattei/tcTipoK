@@ -8,4 +8,6 @@
 	<rts value=""/>
 	<createSlaveProjects value=""/>
 	<ignoreDefaultDeviceSettings value="true"/>
+	<connection value="common/targetdb/connections/TIMSP430-USB.xml"/>
+	<isTargetManual value="false"/>
 </projectOptions>

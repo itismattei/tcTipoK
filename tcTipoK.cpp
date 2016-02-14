@@ -45,14 +45,14 @@ void loop() {
 	}
 	else{
 		/// termocoppia ok
-		valore[1] >>= 3;	/// eliminati i 3 bit di stato
-		upper = valore[0] & 0xFF;
-		/// lascia i 5 bit per valore[1]
-		upper <<= 5;
-		upper |= valore[0];
+		upper = valore[0] << 8;
+		upper |= valore[1];
+		/// SCARTA I 3 BIT MENO SIGNIFICATIVI
+		upper >>= 3;
 		temp = (float) upper / 4.0;
 		Serial.print("Temperatura: ");
 		Serial. println(temp, 2);
+		Serial.println(upper);
 	}
 	delay(1000);
 	P4OUT ^= BIT7;
